@@ -12,7 +12,7 @@ namespace Devcat
         // Enum <==> Int
         //================================================================================================================================
 #if UNITY_2017_1_OR_NEWER
-#if NET_4_6
+#if NET_4_6 || NET_STANDARD_2_0
         struct Shell<T>
             where T : struct
         {
